@@ -1,0 +1,11 @@
+Code for Sales and Profit Table
+Sales =SUMIFS('Sales Data'!$H:$H,'Sales Data'!$U:$U,Working!$B4,'Sales Data'!$F:$F,$R$3)
+Profit =SUMIFS('Sales Data'!$K:$K,'Sales Data'!$U:$U,Working!$B4,'Sales Data'!$F:$F,$R$3)
+Region Wise Sales Table
+Sales =SUMIFS('Sales Data'!$H:$H,'Sales Data'!$T:$T,Working!$F4,'Sales Data'!$F:$F,$R$3)
+Combo box
+=OFFSET(Q1,R2,0)
+Dashboard Total Values
+Sales =SUMIFS('Sales Data'!$H:$H,'Sales Data'!$F:$F,Working!$R$3)
+Quantity =SUMIFS('Sales Data'!$I:$I,'Sales Data'!$F:$F,Working!$R$3)
+Profit =SUMIFS('Sales Data'!$K:$K,'Sales Data'!$F:$F,Working!$R$3)
